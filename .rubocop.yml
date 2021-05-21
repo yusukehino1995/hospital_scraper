@@ -69,8 +69,13 @@ Layout/LineLength:
   Max: 150
 
 Metrics/AbcSize:
-  Exclude:
-    - 'lib/tasks/dev.rake'
+  Enabled: false
+
+Security/Open:
+  Enabled: false
+
+Rails/FilePath:
+  Enabled: false
 
 Metrics/BlockLength:
   CountComments: false
