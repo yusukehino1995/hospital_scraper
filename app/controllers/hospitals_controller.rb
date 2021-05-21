@@ -1,10 +1,6 @@
 # frozen_string_literal: true
 
 class HospitalsController < ApplicationController
-  require 'csv'
-  require 'open-uri'
-  require 'nokogiri'
-
   def index
     respond_to do |format|
       format.html
